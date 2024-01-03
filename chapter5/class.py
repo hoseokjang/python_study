@@ -66,5 +66,5 @@ class SafeFourCal(FourCal):
             return self.num1 / self.num2
         
 c = SafeFourCal(4, 0)
-print(c.div())
+# print(c.div())
 
