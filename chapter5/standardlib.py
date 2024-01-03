@@ -1,6 +1,5 @@
-import datetime
-
 # 1. datetime.date
+# import datetime
 # day1 = datetime.date(2021,12,14)
 # day2 = datetime.date(2023,4,5)
 # diff = day2 - day1
@@ -10,8 +9,7 @@ import datetime
 
 
 # 2. time
-import time
-
+# import time
 # 현재 시간을 실수형으로 리턴
 # print(time.time())
 
@@ -34,8 +32,7 @@ import time
 
 
 # 3. Math
-import math
-
+# import math
 # 최대 공약수 구하기
 # print(math.gcd(60, 80, 100))
 
@@ -44,8 +41,7 @@ import math
 
 
 # 4. Random
-import random
-
+# import random
 # 0.0과 1.0 사이의 실수 중에 난수 값을 리턴
 # print(random.random())
 
@@ -57,8 +53,7 @@ import random
 
 
 # 5. itertools.zip_longest
-import itertools
-
+# import itertools
 # zip 함수를 사용할 때 객체끼리 길이가 다르면 긴 객체의 남는 값은 버려지는데 
 # itertools.zip_longest 함수를 사용하면 긴 객체에 맞춰 채울수 있음
 # students = ['한민서', '황지민', '이영철', '이광수', '김승민']
@@ -77,8 +72,7 @@ import itertools
 
 
 # 6. functools
-import functools
-
+# import functools
 # data = [1,2,3,4,5]
 # reduce로 합 구하기
 # print(functools.reduce(lambda x, y : x + y, data))
@@ -89,7 +83,7 @@ import functools
 
 
 # 7. operator
-from operator import itemgetter
+# from operator import itemgetter
 # 튜플 일때는 itemgetter, 객체 일때는 attrgetter 사용
 
 # students = [
@@ -112,20 +106,20 @@ from operator import itemgetter
 
 # 8. shutil
 # 파일을 복사하거나 이동할 때 사용하는 모듈
-import shutil
+# import shutil
 # shutil.copy('c:/aaa/a.txt', 'c:/temp/temp.txt')
 # shutil.move('c:/aaa/a.txt', 'c:/temp/temp.txt')
 
 
 # 9. glob
-import glob
+# import glob
 
 # 디렉토리에 있는 파일들을 리스트로 만들기
 # glob.glob('c:/aaa/a*')
 
 
 # 10. pickle
-import pickle
+# import pickle
 
 # pickle은 객체의 형태를 그대로 유지하면서 파일에 저장하고 불러올수 있게하는 모듈
 # dump를 사용하여 저장 가능, load를 사용하여 불러오기 가능
@@ -140,7 +134,7 @@ import pickle
 
 
 # 11. os
-import os
+# import os
 
 # 환경 변수나 디렉토리, 파일 등의 OS 자원을 제어할 수 있게 해주는 모듈
 # print(os.environ['PATH'])
@@ -172,7 +166,7 @@ import os
 
 
 # 12. zipfile
-import zipfile
+# import zipfile
 # 여러 개의 파일을 zip 형식으로 합치거나 해체할 때 사용하는 모듈
 
 # 파일 합치기
@@ -191,14 +185,14 @@ import zipfile
 
 
 # 13. json
-import json
+# import json
 # json 파일 읽기
 # with open('info.json') as f:
 #     data = json.load(f)
 
 
 # 14. urllib
-import urllib.request
+# import urllib.request
 # URL을 읽고 분석할 때 사용하는 모듈
 
 # def get_wikidocs(page):
@@ -209,7 +203,7 @@ import urllib.request
 
 
 # 15. webbrowser
-import webbrowser
+# import webbrowser
 # 시스템 브라우저를 호출할 때 사용하는 모듈
 
 # 새창으로 열 때
